@@ -8,7 +8,7 @@ using System.Collections.Generic;
 namespace AGL.Test.Repository
 {
     [TestClass]
-    public class RepositoryUnitTest
+    public class TestRepository
     {
         [TestMethod]
         public void TestJsonGetPersonsCountEqualsSix()
@@ -21,7 +21,7 @@ namespace AGL.Test.Repository
         }
 
         [TestMethod]
-        public void TestJsonGetPersonsFirstPersonIsBobIsMale23()
+        public void TestJsonGetPersonsFirstPersonIsBobMale23()
         {
             IPersonRepository repo = new PersonRepository();
 
